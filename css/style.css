@@ -58,6 +58,157 @@ a {
     color: var(--main-bg-color)
 }
 
+h2 {
+    font-size: 17px;
+}
+/*Css du nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 80px;
+    height: 100px;
+}
+
+#logoSite {
+    max-width: 62px;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+}
+
+#listeNav {
+    display: flex;
+    list-style: none;
+    gap: 68px;
+}
+
+a.lienNav:hover {
+    color: #0065FC;
+    border-top: #0065FC solid 1px;
+    padding-top: 38px;
+}
+
+/* Css du titre h1 + le p */
+#titreDescriptionHeader h1 {
+    font-size: 22px;
+}
+#titreDescriptionHeader p {
+    font-size: 16px;
+}
+#titreDescriptionHeader{
+    gap: 8px;
+}
+
+/* Css de la zone de recherche */
+div#zoneRecherche {
+    margin-top: 35px;
+    display: flex;
+    gap: 24px;
+    width: 377px;
+    height: 49px;
+    border: 1px #f2f2f2 solid;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+}
+
+/* Css pour l'arrière du logo Localisation */
+div#backgroundLocationDot {
+    display: flex;
+    max-width: 50px;
+    width: 100%;
+    max-height: 49px;
+    height: 100%;
+    border: 1px #F2F2F2 solid;
+    background: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Css pour le logo Localisation en Noir*/
+i.fa-solid.fa-location-dot {
+    color: black;
+    width: 14px;
+    height: 18px;
+    font-size: 16px;
+}
+
+/* Css pour l'arrière du Bouton Rechercher */
+div#backgroundLienRechercher {
+    background-color: #0065FC;
+    display: flex;
+    padding: 15px 16px 15px 16px;
+    gap: 10px;
+    border: 1px #0065FC solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* Css pour le Bouton rechercher */
+a#boutonRechercher {
+    color: white;
+    font-size: 18px;
+}
+
+/* Css de la liste filtre */
+#listeFiltre {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+    max-height: 50px;
+    height: 100%;
+    max-width: 758px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+
+#listeFiltre .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  2px solid #D9D9D9;
+    border-radius: 50px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    
+}
+#listeFiltre .card:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+/* Css parti information */
+#information {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 16px;
+    width: 100%;
+    max-height: 24px;
+    height: 100%;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+div#imgInformation {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
