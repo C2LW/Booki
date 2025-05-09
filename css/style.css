@@ -104,7 +104,6 @@ a.lienNav:hover {
 div#zoneRecherche {
     margin-top: 35px;
     display: flex;
-    gap: 24px;
     width: 377px;
     height: 49px;
     border: 1px #f2f2f2 solid;
@@ -136,20 +135,28 @@ i.fa-solid.fa-location-dot {
     font-size: 16px;
 }
 
-/* Css pour l'arrière du Bouton Rechercher */
-div#backgroundLienRechercher {
-    background-color: #0065FC;
+/* Zone de texte du formulaire de recherche */
+#formulaire {
     display: flex;
+}
+
+#villeRecherchée {
+    width: 195px;
+    background-color: white;
+    border: none;
+}
+
+/* Css pour le Bouton rechercher */
+#boutonRechercher {
+    color: white;
+    width: 132px;
+    font-size: 18px;
+    background-color: #0065FC;
     padding: 15px 16px 15px 16px;
     gap: 10px;
     border: 1px #0065FC solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-}
-/* Css pour le Bouton rechercher */
-a#boutonRechercher {
-    color: white;
-    font-size: 18px;
 }
 
 /* Css de la liste filtre */
