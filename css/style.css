@@ -159,6 +159,10 @@ i.fa-solid.fa-location-dot {
     border-bottom-right-radius: 15px;
 }
 
+#boutonRechercher:hover {
+    font-weight: bold;
+}
+
 /* Css de la liste filtre */
 #listeFiltre {
     display: flex;
