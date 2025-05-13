@@ -85,8 +85,8 @@ nav {
 
 a.lienNav:hover {
     color: #0065FC;
-    border-top: #0065FC solid 1px;
-    padding-top: 38px;
+    border-top: #0065FC solid 2px;
+    padding-top: 37px;
 }
 
 /* Css du titre h1 + le p */
