@@ -3,7 +3,7 @@
     flex-direction: row;
     margin: 0;
     padding: 0;
-    width: 65%;
+    width: 758px;
     padding-bottom: 35px;
 }
 
@@ -19,9 +19,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-sizing: content-box;
     height: 2em;
-    margin: 5px 10px 5px 10px;
+   margin: 5px 10px 5px 10px;
     padding: 5px 20px 5px 20px;
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px 30px 30px;
@@ -45,5 +44,18 @@
 .button-filter > li > i {
     padding-right: 8px;
     object-fit: contain;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  
 }
 
