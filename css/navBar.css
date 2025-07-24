@@ -2,9 +2,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 80px;
+    height: 79px;
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .nav-logo {

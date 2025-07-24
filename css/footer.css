@@ -5,6 +5,17 @@ footer {
     justify-content: space-between;
 }
 
+footer section {
+    width: 33%;
+}
+
 footer h2 {
     font-size: 1.2em;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 20px;
 }
