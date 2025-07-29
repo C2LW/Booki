@@ -2,20 +2,13 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     height: 79px;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.nav-logo {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.nav-logo img {
+#logo {
     width: 60px;
     height: 20px;
     object-fit: contain;
@@ -23,26 +16,25 @@ nav {
 }
 
 .nav-menu {
-  display: flex; 
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  
-}
-.nav-menu > li{
-  padding:5px;
-  width:120px;
-  height:60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    gap: 68px;
 }
 
-.nav-menu > li > a {
+.nav-menu>li {
+    padding: 5px;
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+    margin: auto;
+}
+
+.nav-menu>li>a {
     padding: 15px;
 }
 
@@ -51,3 +43,12 @@ nav {
     color: #0065FC;
 }
 
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {}
