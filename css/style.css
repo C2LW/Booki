@@ -2,6 +2,7 @@
 @import url("footer.css");
 @import url("navBar.css");
 @import url("searchbar.css");
+@import url("activityCards.css");
 
 
 /****** General ***********/
@@ -183,40 +184,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.activity-at {
-    display: flex;
-    flex-direction: column;
-    padding: 60px 30px 30px 30px;
-}
 
-.activity-card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    box-sizing: border-box;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.activity-card {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    height: 439px;
-    width: 25%;
-}
-
-.activity-card img {
-    width: 100%;
-    height: 380px;
-    border-radius: 20px 20px 0 0;
-}
-
-.activity-card .card-subtitle {
-    padding: 20px 19px 20px 19px;
-}
 
 
 
@@ -255,10 +223,7 @@ h1 {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
-    .activity-card {
-        height: 270px;
-    }
+    
 }
 
 /* Small devices (phones, less than 768px) */
