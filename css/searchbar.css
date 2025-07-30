@@ -51,6 +51,17 @@ input::placeholder {
     font-size: 1.1em;
 }
 
+.button-search {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 16px 5px 16px;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: none;
+}
+
 input[type="button"]:hover {
     background-color: #DEEBFF;
     color: #000000;
@@ -80,6 +91,7 @@ input[type="button"]:hover {
     border-radius: 12px;
 }
 
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -87,4 +99,23 @@ input[type="button"]:hover {
 @media (max-width: 1024px) {}
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    .form-search {
+        width: 100%;
+    }
+
+    .button-search {
+        display: block;
+        box-shadow: 0px 4px 4px 0px #00000025;
+    }
+
+    .button-search i {
+        color: #FFFFFF;
+    }
+
+    .form-search>input[type="button"] {
+        /* visibility: hidden; */
+        display: none;
+    }
+}

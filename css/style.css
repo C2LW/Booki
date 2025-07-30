@@ -223,10 +223,23 @@ h1 {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container {
+        padding: 0;
+    }
+
+    .header-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     /* ... */
 }

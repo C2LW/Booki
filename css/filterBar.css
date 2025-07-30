@@ -62,4 +62,19 @@
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    .filters {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .filter-button {
+        height: 50px;
+        width: 48%;
+        padding: 4px 19px;
+        font-size: 0.9em
+    }
+
+
+}

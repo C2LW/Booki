@@ -49,4 +49,48 @@ nav {
 @media (max-width: 1024px) {}
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    nav {
+        flex-direction: column;
+        height: 115px;
+        width: 375px;
+    }
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        min-height: 80px;
+    }
+
+    #logo {
+
+        width: 60px;
+        height: 20px;
+        object-fit: contain;
+
+    }
+
+    .nav-menu {
+        width: 375px;
+        height: 36px;
+        gap: 0;
+    }
+
+    .nav-menu li {
+        min-width: 50%;
+        height: 100%;
+    }
+
+    .select-page {
+        border-bottom: solid #0065FC;
+        color: #0065FC;
+    }
+
+    .nav-menu>li>a {
+        padding: 0 15px 15px 15px;
+    }
+
+}
