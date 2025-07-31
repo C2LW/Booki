@@ -241,5 +241,45 @@ h1 {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        padding: 30px 20px;
+        border-radius: 0;
+        height: 569px;
+    }
+
+    .populaires {
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
+
+    .populaires-title {
+        padding-bottom: 15px;
+    }
+
+    section.hebergements {
+        background-color: white;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+        height: 146px;
+    }
+
+    .populaires-cards .card {
+        margin: 0;
+
+    }
+
+
     /* ... */
 }
