@@ -49,7 +49,7 @@
     .activity-card {
         height: 270px;
     }
-    
+
     .activity-card img {
         min-height: 200px;
     }
@@ -62,5 +62,20 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+    .activity-card-container {
+        flex-direction: column;
+    }
+
+    .activity-card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .activity-card .card-txt {
+        height: 59px;
+    }
+
     /* ... */
 }
