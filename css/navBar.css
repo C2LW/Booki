@@ -54,7 +54,7 @@ nav {
     nav {
         flex-direction: column;
         height: 115px;
-        width: 375px;
+        width: 100%;
     }
 
     .nav-logo {
@@ -66,30 +66,30 @@ nav {
     }
 
     #logo {
-
         width: 60px;
         height: 20px;
         object-fit: contain;
-
     }
 
     .nav-menu {
-        width: 375px;
+        width: 100%;
         height: 36px;
         gap: 0;
     }
 
     .nav-menu li {
-        min-width: 50%;
+        width: 50%;
         height: 100%;
     }
 
-    .select-page {
+    .nav-menu li a:hover {
+        border-top: none;
         border-bottom: solid #0065FC;
         color: #0065FC;
     }
 
-    .nav-menu>li>a {
+    .nav-menu li a {
+        display: block;
         padding: 0 15px 15px 15px;
     }
 
