@@ -13,13 +13,16 @@
     margin-top: 30px;
 }
 
+.activity-card-container a {
+    width: 25%;
+}
+
 .activity-card {
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    width: 25%;
 }
 
 .activity-card img {
@@ -33,7 +36,6 @@
     height: 59px;
 }
 
-
 .activity-card .card-subtitle {
     padding: 20px 19px 20px 19px;
     font-size: 1em;
@@ -46,16 +48,12 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .activity-card {
-        height: calc(270px - 15px);
-    }
-
     .activity-card img {
         height: 200px;
     }
 
     .activity-card .card-txt {
-        height: 100%;
+        height: 70px;
     }
 
 }
@@ -68,9 +66,12 @@
         gap: 15px;
     }
 
+    .activity-card-container a {
+        width: 100%;
+    }
+
     .activity-card {
         height: auto;
-        width: 100%;
     }
 
     .activity-card img {
