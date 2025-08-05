@@ -3,8 +3,43 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 35px;
+}
+
+footer section {
+    width: 33%;
 }
 
 footer h2 {
     font-size: 1.2em;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+footer li {
+    padding-bottom: 15px;
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
 }

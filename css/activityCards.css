@@ -1,0 +1,86 @@
+/* Style for module activity cards*/
+
+.activity-at {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 30px 30px;
+}
+
+.activity-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.activity-card-container a {
+    width: 25%;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activity-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    aspect-ratio: 0.9;
+    object-fit: cover;
+}
+
+.activity-card .card-txt {
+    height: 59px;
+}
+
+.activity-card .card-subtitle {
+    padding: 20px 19px 20px 19px;
+    font-size: 1em;
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .activity-card img {
+        height: 200px;
+    }
+
+    .activity-card .card-txt {
+        height: 70px;
+    }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .activity-card-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activity-card-container a {
+        width: 100%;
+    }
+
+    .activity-card {
+        height: auto;
+    }
+
+    .activity-card img {
+        height: 141px;
+    }
+
+    .activity-card .card-txt {
+        height: 59px;
+    }
+
+    /* ... */
+}
