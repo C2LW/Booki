@@ -82,6 +82,11 @@ nav {
         height: 100%;
     }
 
+    .nav-menu li a {
+        border-top: none;
+        border-bottom: .2em solid #F2F2F2
+    }
+
     .nav-menu li a:hover {
         border-top: none;
         border-bottom: solid #0065FC;
