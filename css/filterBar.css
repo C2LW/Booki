@@ -78,3 +78,18 @@
 
 
 }
+
+/* Small devices (phones, less than 360px) */
+@media (max-width: 360px) {
+
+    .filter-button {
+        font-size: 0.8em
+    }
+
+    .filter-button i {
+        padding: 0;
+    }
+
+
+}
+

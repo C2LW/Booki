@@ -9,6 +9,7 @@
 .activity-card-container {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     gap: 30px;
     margin-top: 30px;
 }
@@ -20,6 +21,7 @@
 .activity-card {
     display: flex;
     flex-direction: column;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -33,7 +35,7 @@
 }
 
 .activity-card .card-txt {
-    height: 59px;
+    height: 30%;
 }
 
 .activity-card .card-subtitle {

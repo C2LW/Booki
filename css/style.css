@@ -121,7 +121,6 @@ h1 {
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
-        min-width: 375px;
     }
 
     /* ... */
